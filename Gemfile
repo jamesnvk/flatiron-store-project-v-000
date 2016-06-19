@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'devise'
 gem 'rails', '4.2'
 gem 'sass-rails', '4.0.2'
 gem 'uglifier', '>= 1.3.0'
@@ -15,7 +16,6 @@ group :test, :development do
   gem "launchy"
   gem "rack_session_access"
   gem "selenium-webdriver"
-  gem "better_errors"
   gem "binding_of_caller"
   gem "factory_girl_rails"
   gem "simplecov"
